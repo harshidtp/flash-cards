@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/harshidtp/flash-cards/compare/v1.0.1...v1.0.2) (2025-12-11)
+
+
+### Bug Fixes
+
+* add TypeScript and React types for CI build ([3758621](https://github.com/harshidtp/flash-cards/commit/37586216b0b7139729eb6dde6d3f5833a45dc757))
+
 ## [1.0.1](https://github.com/harshidtp/flash-cards/compare/v1.0.0...v1.0.1) (2025-12-11)
 
 
