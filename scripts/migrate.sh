@@ -9,7 +9,7 @@ fi
 
 # Example using supabase CLI (install in CI runner)
 # supabase db push or supabase migrations apply
-# Placeholder: user should replace with commands used in their workflow
+# Placeholder: user should replace with commands used in their workflow something nee to read and understand 
 
 
 echo "Running migrations..."
