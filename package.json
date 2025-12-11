@@ -3,35 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint . --ext .js,.jsx",
-  "format": "prettier --write .",
-  "test": "vitest",
-  "test:coverage": "vitest --coverage",
-  "migrate": "bash ./scripts/migrate.sh",
-  "seed": "bash ./scripts/seed.sh",
-  "semantic-release": "semantic-release"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "migrate": "bash ./scripts/migrate.sh",
+    "seed": "bash ./scripts/seed.sh",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
-  "next": "latest",
-  "react": "latest",
-  "react-dom": "latest",
-  "@supabase/supabase-js": "latest",
-  "tailwindcss": "latest"
+    "@supabase/supabase-js": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
   },
   "devDependencies": {
-  "eslint": "latest",
-  "prettier": "latest",
-  "husky": "latest",
-  "lint-staged": "latest",
-  "vitest": "latest",
-  "semantic-release": "latest",
-  "@semantic-release/git": "latest",
-  "@semantic-release/changelog": "latest",
-  "@semantic-release/github": "latest"
-  
+    "@semantic-release/changelog": "latest",
+    "@semantic-release/git": "latest",
+    "@semantic-release/github": "latest",
+    "@tailwindcss/postcss": "^4.1.17",
+    "autoprefixer": "^10.4.22",
+    "eslint": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "postcss": "^8.5.6",
+    "prettier": "latest",
+    "semantic-release": "latest",
+    "vitest": "latest"
   }
-  }
- 
+}
