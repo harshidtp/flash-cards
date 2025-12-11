@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20   # ✅ Must be 20 or higher
+          node-version: 24   # ✅ Must be >=24.10.0 for semantic-release
 
       - name: Install dependencies
         run: npm ci
