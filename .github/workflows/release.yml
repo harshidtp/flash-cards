@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - main  # Trigger release only on main branch
+      - main
 
 jobs:
   release:
@@ -21,13 +21,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20   # ✅ Must be 20 or higher
 
       - name: Install dependencies
         run: npm ci
 
       - name: Run Semantic Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provided automatically by GitHub Actions
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}        # Optional if you publish to npm
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}  # optional if publishing to npm
         run: npx semantic-release
